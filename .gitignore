@@ -1,0 +1,23 @@
+node_modules
+.env
+coverage
+coverage.json
+typechain
+typechain-types
+
+# Hardhat files
+cache
+artifacts
+
+# Mac
+.DS_Store
+
+# Deployment records with private info
+DEPLOYMENT_GUIDE_COMPLETED.md
+early-member-vesting-deployment.json
+PRIVACY_AUDIT_REPORT.md
+
+# Local development
+*.log
+.vscode/
+.idea/
