@@ -10,8 +10,8 @@ async function main() {
   console.log("Account balance:", ethers.formatEther(await ethers.provider.getBalance(deployer.address)), "POL\n");
 
   // ADDRESSES - UPDATE THESE!
-  const PATH_TOKEN = "YOUR_PATH_TOKEN_ADDRESS"; // From main deployment
-  const TREASURY_SAFE = "YOUR_TREASURY_SAFE_ADDRESS";
+  const PATH_TOKEN = "0xeb9F24bA2C9A06e10B759eA63aed397f8399B5CC"; // From main deployment
+  const TREASURY_SAFE = "0x325e71d4Ca1dB3b5DAdfe819320aBc6975827D36";
 
   const FUTURE_GROWTH_AMOUNT = ethers.parseEther("10000000"); // 10M PATH
 
